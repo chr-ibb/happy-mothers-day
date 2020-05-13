@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HMD</string>
+    <string name="love_you_3"><![CDATA[Love you <3]]></string>
+    <string name="not_round">not round</string>
+    <string name="round">round</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_instructions">To begin, please press the round button below.</string>
+    <string name="color">Pick a Color</string>
+    <string name="happy_mothers_day">HAPPY MOTHERS DAY!</string>
+    <string name="thanks_for_everything">Thanks for everything :)</string>
+    <string name="be_creative_hint">Be creative!</string>
+    <string name="submit">Submit</string>
+    <string name="enter_one_word_below">Enter ONE word below</string>
+    <string name="over_100_feet">Over 100 feet</string>
+    <string name="between_70_and_100_feet">Between 70 and 100 feet</string>
+    <string name="between_40_and_70_feet">Between 40 and 70 feet</string>
+    <string name="between_20_and_40_feet">Between 20 and 40 feet</string>
+    <string name="between_10_and_20_feet">Between 10 and 20 feet</string>
+    <string name="below_10_feet">Below 10 feet</string>
+    <string name="please_select_how_tall_you_are">Please select how tall you are</string>
+    <string name="height_continue">Continue</string>
+    <string name="do_you_have_children">Do you have children?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="are_you_a_woman">Are you a woman?</string>
+    <string name="next_question">Next Question!</string>
+    <string name="privacy">Release highly personal results to the entire internet?</string>
+    <string name="calculate_results">Calculate Results!</string>
+    <string name="advanced_algs">Through several advanced analytic algorithms, we\'ve determined that you are a:</string>
+    <string name="mother">M O T H E R</string>
+    <string name="celebrate">Celebrate!</string>
+    <string name="rounding_numbers"><![CDATA[2.49 -> 2]]></string>
+</resources>

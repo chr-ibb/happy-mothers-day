@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/nav_welcome">
+
+    <fragment
+        android:id="@+id/nav_welcome"
+        android:name="com.example.hmd.WelcomeFragment"
+        android:label="Welcome"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_nav_welcome_to_nav_color"
+            app:destination="@id/nav_color"
+            app:launchSingleTop="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_color"
+        android:name="com.example.hmd.ColorFragment"
+        android:label="Color"
+        tools:layout="@layout/fragment_color">
+        <action
+            android:id="@+id/action_nav_color_to_nav_word"
+            app:destination="@id/nav_word"
+            app:launchSingleTop="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_word"
+        android:name="com.example.hmd.WordFragment"
+        android:label="No Cheating!"
+        tools:layout="@layout/fragment_word">
+        <action
+            android:id="@+id/action_nav_word_to_nav_height"
+            app:destination="@id/nav_height"
+            app:launchSingleTop="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_height"
+        android:name="com.example.hmd.HeightFragment"
+        android:label="Be Honest"
+        tools:layout="@layout/fragment_height">
+        <action
+            android:id="@+id/action_nav_height_to_nav_children"
+            app:destination="@id/nav_children"
+            app:launchSingleTop="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_children"
+        android:name="com.example.hmd.ChildrenFragment"
+        android:label="X Æ A-12"
+        tools:layout="@layout/fragment_children">
+        <action
+            android:id="@+id/action_nav_children_to_nav_calculate"
+            app:destination="@id/nav_calculate"
+            app:launchSingleTop="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_calculate"
+        android:name="com.example.hmd.CalculateFragment"
+        android:label="A N A L Y T I C S"
+        tools:layout="@layout/fragment_calculate">
+        <action
+            android:id="@+id/action_nav_calculate_to_nav_results"
+            app:destination="@id/nav_results"
+            app:launchSingleTop="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_results"
+        android:name="com.example.hmd.ResultsFragment"
+        android:label="100% Accuracy"
+        tools:layout="@layout/fragment_results">
+        <action
+            android:id="@+id/action_nav_results_to_nav_celebrate"
+            app:destination="@id/nav_celebrate"
+            app:launchSingleTop="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_celebrate"
+        android:name="com.example.hmd.CelebrateFragment"
+        android:label="WOO!"
+        tools:layout="@layout/fragment_celebrate">
+    </fragment>
+</navigation>
